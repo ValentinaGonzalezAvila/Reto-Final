@@ -1,4 +1,6 @@
 # Reto-Final
 
-http://127.0.0.1:5500/
-![CRUD Firebase](https://user-images.githubusercontent.com/88067732/143126652-0d012b40-bc6f-4ee4-abab-38cf16fad937.jpg)
+## Modelado en firebase
+[
+![reto_final_firebase](https://user-images.githubusercontent.com/82173439/142976620-550f5e4f-c001-462a-94be-4d4da91b6168.PNG)
+](url)
