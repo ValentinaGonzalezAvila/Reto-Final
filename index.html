@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase CRUD</title>
+
+  <!-- BOOTSWATCH -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/pulse/bootstrap.min.css">
+
+  <!-- ANIMATE CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+</head>
+
+<body class="bg-light">
+
+  <!-- ADD TASK -->
+  <div class="container p-6">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+
+            <h1 class="h4">Estudiantes</h1>
+
+            <form id="task-form">
+                <div class="form-group">
+                    <input id="task-description" class="form-control" placeholder="ID Estudiante">
+                  </div>
+              <div class="form-group">
+                <input type="text" id="task-title" class="form-control" class="Task Title" placeholder="Nombre"
+                  autofocus>
+              </div>
+              <div class="form-group">
+                <input id="task-description" class="form-control" placeholder="Apellidos">
+              </div>
+              
+
+              <button class="btn btn-primary" id="btn-task-form">
+                Guardar
+              </button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Tasks List -->
+      <div class="col-md-6" id="tasks-container"></div>
+    </div>
+  </div>
+
+    <!-- ADD TASK 2-->
+  <div class="container p-6">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+
+            <h1 class="h4">Matriculas</h1>
+
+            <form id2="task-form2">
+                <form id2="task-form">
+                    <div class="form-group">
+                        <input id2="task-description" class="form-control" placeholder="ID Matricula">
+                      </div>
+
+              <button class="btn btn-primary" id2="btn-task-form2">
+                Guardar
+              </button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Tasks List -->
+      <div class="col-md-6" id2="tasks-container2"></div>
+    </div>
+  </div> 
+
+<!-- ADD TASK 3-->
+<div class="container p-6">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+
+            <h1 class="h4">Clase</h1>
+
+            <form id3="task-form3">
+                <form id3="task-form3">
+                    <div class="form-group">
+                        <input id3="task-description" class="form-control" placeholder="ID Clase">
+                      </div>
+                  <div class="form-group">
+                    <input type="text" id3="task-title" class="form-control" class="Task Title" placeholder="Titulo de Clase"
+                      autofocus>
+                  </div>
+                  <div class="form-group">
+                    <input id3="task-description" class="form-control" placeholder="Descripcion">
+                  </div>
+
+              <button class="btn btn-primary" id3="btn-task-form3">
+                Guardar
+              </button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Tasks List -->
+      <div class="col-md-6" id3="tasks-container3"></div>
+    </div>
+  </div> 
+
+    <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-firestore-compat.js"></script>
+
+    <script>
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyCCAtBRbh_kmD1BFKbLEqe9VYsjMBpUzWA",
+            authDomain: "crud--firebase--js.firebaseapp.com",
+            projectId: "crud--firebase--js",
+            storageBucket: "crud--firebase--js.appspot.com",
+            messagingSenderId: "248827485593",
+            appId: "1:248827485593:web:647bd5d8e9490d74534708"
+        }; 
+        
+        //Initialize Firebase
+        const app = firebase.initializeApp(firebaseConfig)
+        
+    
+    </script>
+
+
+    <script type="module" src="index.js"></script>   
+    
+</body>
+</html>
