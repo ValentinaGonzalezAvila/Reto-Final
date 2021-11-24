@@ -77,7 +77,7 @@ window.addEventListener("DOMContentLoaded", async (e) => {
 
           editStatus = true;
           id = doc.id;
-          taskForm["btn-task-form"].innerText = "Update";
+          taskForm["btn-task-form"].innerText = "Actualizar";
 
         } catch (error) {
           console.log(error);
@@ -104,7 +104,7 @@ taskForm.addEventListener("submit", async (e) => {
 
       editStatus = false;
       id = '';
-      taskForm['btn-task-form'].innerText = 'Save';
+      taskForm['btn-task-form'].innerText = 'Guardar';
     }
 
     taskForm.reset();
@@ -179,7 +179,7 @@ window.addEventListener("DOMContentLoaded", async (e) => {
 
          editStatus = true;
          id2 = doc2.id;
-         taskForm2["btn-task-form2"].innerText = "Update";
+         taskForm2["btn-task-form2"].innerText = "Actualizar";
 
        } catch (error) {
          console.log(error);
@@ -206,7 +206,7 @@ taskForm2.addEventListener("submit", async (e) => {
 
      editStatus = false;
      id2 = '';
-     taskForm2['btn-task-form2'].innerText = 'Save';
+     taskForm2['btn-task-form2'].innerText = 'Guardar';
    }
 
    taskForm2.reset();
@@ -233,7 +233,7 @@ taskForm2.addEventListener("submit", async (e) => {
 
      editStatus = false;
      id2 = '';
-     taskForm2['btn-task-form2'].innerText = 'Save';
+     taskForm2['btn-task-form2'].innerText = 'Guardar';
    }
 
    taskForm2.reset();
@@ -308,7 +308,7 @@ window.addEventListener("DOMContentLoaded", async (e) => {
 
          editStatus = true;
          id3 = doc3.id3;
-         taskForm3["btn-task-form3"].innerText = "Update";
+         taskForm3["btn-task-form3"].innerText = "Actualizar";
 
        } catch (error) {
          console.log(error);
@@ -335,7 +335,7 @@ taskForm2.addEventListener("submit", async (e) => {
 
      editStatus = false;
      id3 = '';
-     taskForm3['btn-task-form3'].innerText = 'Save';
+     taskForm3['btn-task-form3'].innerText = 'Guardar';
    }
 
    taskForm3.reset();
@@ -362,7 +362,7 @@ taskForm3.addEventListener("submit", async (e) => {
 
      editStatus = false;
      id3 = '';
-     taskForm3['btn-task-form3'].innerText = 'Save';
+     taskForm3['btn-task-form3'].innerText = 'Guardar';
    }
 
    taskForm3.reset();
